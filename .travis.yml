@@ -8,7 +8,7 @@ deploy:
     secure: "$SECRETACCESSKEY"
   region: "ap-south-1"  
   app: "My First Elastic Beanstalk Application"
-  env: "elastic-beanstalk-tutorial-dev"
+  env: "Default-Environment"
   bucket_name: "elasticbeanstalk-ap-south-1-573034299960"
   on:
 branch: master
